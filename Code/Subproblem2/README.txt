@@ -1,0 +1,31 @@
+C++ was used for the computation and MATLAB
+was used for the plotting in this project
+
+There are ways 2 run the code (preferrably on the first):
+NOTE: I use g++ for my c++ compiler. version 9.3
+NOTE: Parameters must be specified from within the code itself
+in Main2Quadcopter.cpp
+
+Before proceeding select the proper directory for the folder.
+You must also include a library called Eigen3 as it is used
+in this code.
+
+It is preferred that this is run on Ubuntu as windows might not
+detect the linking of the library eigen3
+
+NOTE: instructions on how to define parameters are in the code
+explained over the workspace 1 code parameters in Main3Quadcopters.cpp
+in subproblem 3 folder
+
+1. Ubuntu (Linux): Ensure that all the .cpp and .hpp files remain in
+the same folder.
+     a) Enter g++ -I(Location of eigen3 library) Main2Quadcopters.cpp RRT.cpp 
+	into the Ubuntu command line terminal
+     b) Enter ./a.out which will run the entire code
+
+The c++ code will output 1 text file,
+
+Workspace1 ------> test1.txt (Quadcopter 1 Path)
+	   ------> test2.txt (Quadcopter 2 Path
+
+
