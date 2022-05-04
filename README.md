@@ -1,2 +1,2 @@
 # Motion-Planning
-Contains assignments and projects from the Motion Planning Course I took
+Contains the ASEN 5519 Motion Planning Final Project
