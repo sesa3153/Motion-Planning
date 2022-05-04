@@ -26,6 +26,6 @@ the same folder.
 The c++ code will output 1 text file,
 
 Workspace1 ------> test1.txt (Quadcopter 1 Path)
-	   ------> test2.txt (Quadcopter 2 Path
+Workspace2 ------> test2.txt (Quadcopter 2 Path)
 
 
